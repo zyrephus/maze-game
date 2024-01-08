@@ -10,7 +10,7 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: rgb(39, 39, 39);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -29,13 +29,13 @@ html, body {
 #mazeContainer #mazeCanvas {
     margin: 0;
     display: block;
-    border: solid 2px black;
+    border: solid 2px rgb(255, 255, 255);
     height: 600px;
 }
 
 input, select {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(199, 199, 199, 0.3);
     height: 45px;
     width: 150px;
     padding: 10px;
@@ -49,10 +49,10 @@ input, select {
     appearance: none;
 }
 input:hover, select:hover {
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(130, 130, 130, 0.3);
 }
 input:active, select:active {
-    background-color: black;
+    background-color: rgb(35, 35, 35);
 }
 input:focus, select:focus {
     outline: none;
@@ -71,7 +71,7 @@ input:focus, select:focus {
 
 #Message-Container {
     visibility: hidden;
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     width: 100vw;
     height: 100vh;
@@ -122,7 +122,7 @@ input:focus, select:focus {
 }
 
 .border {
-    border: 10px black solid;
+    border: 10px rgb(0, 0, 0) solid;
     border-radius: 10px;
 }
 
