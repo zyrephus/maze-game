@@ -19,6 +19,7 @@ html, body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #mazeContainer {
     top: 15px;
     opacity: 0;
@@ -26,6 +27,8 @@ html, body {
     margin: auto;
     border-radius: 10px;
 }
+=======
+>>>>>>> parent of 44e8c86 (Fixed issues)
 =======
 >>>>>>> parent of 44e8c86 (Fixed issues)
 #mazeContainer #mazeCanvas {
