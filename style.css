@@ -19,7 +19,8 @@ html, body {
 }
 
 #mazeContainer {
-    top: 15px;
+    position: absolute; /* Change to absolute positioning */
+    transform: translate(-50%, -115%); /* Center the element perfectly */
     opacity: 0;
     display: inline-block;
     margin: auto;
@@ -29,7 +30,7 @@ html, body {
     margin: 0;
     display: block;
     border: solid 2px black;
-    height: 400px;
+    height: 600px;
 }
 
 input, select {
@@ -126,7 +127,7 @@ input:focus, select:focus {
 }
 
 #instructions {
-    margin-top: 600px;
+    margin-top: 650px;
 }
 
 /* Extra small devices (phones, 600 px and down) */
