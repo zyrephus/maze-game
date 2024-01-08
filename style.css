@@ -18,6 +18,13 @@ html, body {
     margin-top: 30px;
 }
 
+#mazeContainer {
+    top: 15px;
+    opacity: 0;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+}
 #mazeContainer #mazeCanvas {
     margin: 0;
     display: block;
